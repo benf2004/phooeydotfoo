@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply lightsalmon background color */
+body {
+    background-color: lightsalmon;
+}
+
+/* Style the header with a fun font and unique styling */
+header {
+    margin-left: 25px;
+    padding: 40px 20px 20px;
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    margin-bottom: 20px;
+}
+
+#title > a {
+    color: white !important;
+    font-size: 25pt;
+    text-decoration: none;
+}
+
+/* Apply flexbox to main content */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+/* Style the divs containing the unordered lists as cards */
+div {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 600px; /* Adjust the width as desired for mobile display */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Style the unordered list */
+ul {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+/* Style the list items */
+li {
+    margin-bottom: 10px;
+}
+
+/* Style the links */
+a {
+    color: #FFA07A; /* Light orange color */
+    font-size: 18pt; /* Increase the font size */
+}
+
+/* Style the links on hover */
+a:hover {
+    text-decoration: underline;
+}
+
+/* Increase font size for main body text */
+body,
+p {
+    font-size: 20pt;
+}
+
+/* Additional styling for the cards */
+.card {
+    margin-left: 20px;
+    border: 2px solid #333;
+}
+
+/* Apply interesting font for main cards */
+.card-content {
+    font-size: 16pt;
+    line-height: 1.4;
+    font-family: 'Montserrat', sans-serif;
+}
